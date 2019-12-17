@@ -1,0 +1,14 @@
+import numpy as np
+import random
+import scipy.stats as sps
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+a = np.array([2, 6, 1, 9, 10, 3, 27, 8])
+n=[int(i) for i in a]
+newarr=[]
+for i in n:
+if i>5 and i<10:
+newarr.append(i)
+continue
+print (newarr)
