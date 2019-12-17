@@ -1,0 +1,6 @@
+iris = datasets.load_iris()
+iris_frame = DataFrame(iris.data)
+iris_frame['target'] = iris.target
+iris_frame['name'] = iris_frame.target.apply(x : iris.target_names[x])
+iris_frame['petal square'] = iris_frame['petal length (cm)'] * iris_frame['petal width (cm)']
+print(result)
