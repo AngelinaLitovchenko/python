@@ -1,0 +1,3 @@
+df['facebook_likes'] = df.director_facebook_likes + df.actor_3_facebook_likes + df.actor_1_facebook_likes + df.actor_2_facebook_likes + df.movie_facebook_likes
+dfp = df[df.country == 'UK'].groupby(by = ['director_name', 'color', 'country']).aggregate({'facebook_likes' : 'mean'})
+dfp.head()
