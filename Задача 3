@@ -1,0 +1,2 @@
+dfs = df.groupby(by = ['director_name', 'color']).aggregate({'imdb_score' : 'mean'})
+dfs.head()
