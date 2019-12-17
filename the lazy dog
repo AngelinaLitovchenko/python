@@ -1,0 +1,2 @@
+s='the lazy dog jumped over the brown fox'
+print(s.replace('o','1'))
