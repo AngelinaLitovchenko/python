@@ -1,0 +1,7 @@
+newarr=[]
+for i in arr:
+if arr[i]%2== 0:
+newarr.append(-1)
+elif arr[i]%2 !=0:
+newarr.append(i)
+print(newarr)
